@@ -1,0 +1,60 @@
+
+#background {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+ }
+ 
+ #texture {
+     width: 100vw;
+     height: 100vh;
+     position: fixed;     
+ }
+
+ #grand-title {
+     width: 14%;
+     position: fixed;
+     left: 42%;
+     margin-top: 5%;
+ }
+
+ #flagtwo {
+     width: 49%;
+     position: fixed;
+     opacity: 0.15;
+     margin-top: 2%;
+     left: 23%;
+ }
+
+ #introtxt {
+     width: 24%;
+     position: fixed;
+     margin-top: 25%;
+     left: 37.5%;
+ }
+
+ #challenge-btn {
+     width: 22%;
+     position: fixed;
+     left: 38%;
+     margin-top: 37%;
+ }
+
+ #hover-intro {
+    width: 22%;
+    position: fixed;
+    left: 38%;
+    margin-top: 37%;
+    opacity: 0;
+    cursor: default;
+    transition: .5s ease;
+ }
+
+ #hover-intro:hover {
+    opacity: 1;
+}
+
+
+
+
+

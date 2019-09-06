@@ -1,0 +1,142 @@
+#background {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+ }
+ 
+ #texture {
+     width: 100vw;
+     height: 100vh;
+     position: fixed;     
+ }
+
+ #menu-icon-btn {
+    position: fixed;
+    width: 3.5%;
+    left: 3%;
+    margin-top: 3%;
+    opacity: 1; 
+    z-index: 1;
+}
+
+ #heading {
+    width: 24.1%;
+    height: auto;
+    position: fixed;
+    left: 37%;
+    margin-top: 8%;
+ }
+
+ p1 {
+    font-size: 1.2vw;
+    font-family: 'Cooper Hewitt Light';
+    color: #e8dfd1;
+    position: fixed;
+    left: 45%;
+    margin-top: 13.7%;
+}
+
+p2 {
+    font-size: 1.4vw;
+    font-family: 'Cooper Hewitt Semi-Bold';
+    color: #e8dfd1;
+    position: fixed;
+    left: 47%;
+    margin-top: 35%;
+    letter-spacing: 0.05vw;
+}
+
+p3 {
+    font-size: 0.9vw;
+    font-family: 'Cooper Hewitt Semi-Bold';
+    color: #e8dfd1;
+    position: fixed;
+    left: 45%;
+    margin-top: 37%;
+    letter-spacing: 0.05vw; 
+}
+
+p4 {
+   font-size: 0.9vw;
+   font-family: 'Cooper Hewitt Semi-Bold';
+   color: #e8dfd1;
+   position: fixed;
+   left: 44%;
+   margin-top: 38.3%;
+   letter-spacing: 0.05vw; 
+}
+
+p5 {
+    font-size: 0.9vw;
+   font-family: 'Cooper Hewitt Semi-Bold';
+   color: #e8dfd1;
+   position: fixed;
+   left: 44.5%;
+   margin-top: 39.5%;
+   letter-spacing: 0.05vw; 
+}
+
+#tent {
+   position: fixed;
+    width: 25%;
+    margin-top: 17.5%;
+    left: 36%;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt Light';
+    src: url(Fonts/cooper-hewitt/CooperHewitt-Light.otf);
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt Semi-Bold';
+    src: url(Fonts/cooper-hewitt/CooperHewitt-Semibold.otf);
+}
+
+.dollar-sig {
+    font-size: 1.7vw;
+    font-family:'Cooper Hewitt Bold';
+    color: #e8dfd1;
+    position: fixed;
+    right: 8.5%;
+    margin-top: 2.5%;
+}
+
+.digits {
+    font-size: 1.7vw;
+    font-family:'Cooper Hewitt Bold';
+    color: #e8dfd1;
+    position: fixed;
+    right: 3%;
+    margin-top: 2.5%;
+}
+
+.status {
+    font-size: 1vw;
+    font-family:'Cooper Hewitt Bold';
+    color: #e8dfd1;
+    position: fixed;
+    right: 7.5%;
+    margin-top: 5%;
+}
+
+.state {
+    font-size: 1vw;
+    font-family:'Cooper Hewitt Bold';
+    color: #e8dfd1;
+    position: fixed;
+    right: 3.1%;
+    margin-top: 5%;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt Bold';
+    src: url('Fonts/cooper-hewitt/CooperHewitt-Bold.otf');
+}
+
+#dots {
+    width: 3%;
+    position: fixed;
+    left: 47%;
+    margin-top: 42%;
+}

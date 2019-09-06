@@ -1,0 +1,283 @@
+
+
+#background {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+ }
+ 
+ #texture{
+     width: 100vw;
+     height: 100vh; 
+     position: fixed;
+     right: 0%;
+ }
+
+#menu-icon-btn {
+     position: fixed;
+     width: 3.5%;
+     left: 3%;
+     margin-top: 3%;
+     z-index: 1;
+ }
+
+
+ #menu-bg {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    opacity: 0;
+ }
+
+ h1 {
+    position: fixed;
+    font-family: 'Roboto Black';
+    color: #e8dfd1;
+    font-size: 2.3vw;
+    opacity: 0;
+    left: 43.5%;
+    margin-top: 10%;
+    cursor: default;
+    z-index: 1;
+ } 
+
+ h2 {
+    position: fixed;
+    font-family: 'Roboto Black';
+    color: #e8dfd1;
+    font-size: 2.3vw;
+    opacity: 0;
+    left: 45%;
+    margin-top: 16%;
+    z-index: 1;
+  
+ } 
+
+h3 {
+    position: fixed;
+    font-family: 'Roboto Black';
+    color: #e8dfd1;
+    font-size: 2.3vw;
+    opacity: 0;
+    left: 45%;
+    margin-top: 22%;
+    z-index: 1;
+
+}
+
+h4 {
+    position: fixed;
+    font-family: 'Roboto Black';
+    color: #e8dfd1;
+    font-size: 2.3vw;
+    opacity: 0;
+    left: 44.5%;
+    margin-top: 28%;
+    z-index: 1;
+   
+}
+
+h5 {
+    position: fixed;
+    font-family: 'Roboto Black';
+    color: #e8dfd1;
+    font-size: 2.3vw;
+    opacity: 0;
+    left: 45.5%;
+    margin-top: 34%;
+    cursor: default;
+    z-index: 1;
+} 
+
+ @font-face {
+    font-family: 'Roboto Black';
+    src: url(Fonts/roboto/Roboto-Black.ttf);
+ }
+
+ @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation: fadeIn .3s linear forwards;
+    animation: fadeIn .3s linear forwards;
+  }
+
+  @-webkit-keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+    }
+  }
+  
+  .fadeOut {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+    -webkit-animation: fadeOut .3s linear forwards;
+    animation: fadeOut .3s linear forwards;
+  }
+
+ #flag-win {
+     width: 11%;
+     height: auto;
+     position: fixed;
+     left: 44%;
+     margin-top: 3%;
+ }
+
+ #title {
+     width: 25%;
+     height: auto;
+     position: fixed;
+     margin-top: 15%;
+     left: 35%;
+ }
+
+ #text {
+     position: fixed;
+     width: 22%;
+     height: auto;
+     margin-top: 22.5%;
+     left: 37.3%;   
+ }
+
+ #button {
+     position: fixed;
+     display: block;
+     width: 13.1%;
+     height: auto;
+     margin-top: 32%;
+     left: 41%;
+ }
+
+ #share {
+     font-size: 1.2vw;
+     color: #e8dfd1;
+     font-family: 'Cooper Hewitt Bold';
+     letter-spacing: 0.05vw;
+     position: fixed;
+     margin-top: 38.5%;
+     left: 45.5%;
+ }
+
+ @font-face {
+    font-family: 'Cooper Hewitt Bold';
+    src: url(Fonts/cooper-hewitt/CooperHewitt-Bold.otf);
+}
+
+
+ #fb-icon {
+     position: fixed;
+     width: 3.4%;
+     height: auto;
+     margin-top: 41.5%;
+     left: 42.5%;
+ }
+
+ #twitter-icon {
+     position: fixed;
+     width: 3.4%;
+     height: auto;
+     margin-top: 41.5%;
+     right: 48%;
+ }
+
+ #hoverme {
+     position: fixed;
+     width: 13.1%;
+     left: 41%;
+     margin-top: 32%;
+     opacity: 0;
+     transition: .5s ease;
+     z-index: 1;
+ }
+
+ #hoverme:hover {
+     opacity: 1;
+ }
+
+ #hoverme2 {
+     position: fixed;
+     width: 3.5%;
+     height: auto;
+     margin-top: 41.4%;
+     left: 42.4%;
+     opacity: 0;
+     transition: .5s ease;
+     z-index: 1;
+ }
+
+ #hoverme2:hover {
+    opacity: 1;
+}
+
+#hoverme3 {
+    position: fixed;
+    width: 3.5%;
+    height: auto;
+    margin-top: 41.4%;
+    left: 48.5%;
+    opacity: 0;
+    transition: .5s ease;
+    z-index: 1;
+}
+
+#hoverme3:hover {
+    opacity: 1;
+}
+
+a {
+    cursor: default;
+}
+
+#about {
+    position: fixed;
+    width: 30%;
+    margin-top: 12%;
+    left: 32%;
+    opacity: 0;
+    z-index: 1;
+}
+
+
+
+ 
+
+
+
+
+
+ 
